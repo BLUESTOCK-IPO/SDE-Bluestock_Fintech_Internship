@@ -148,7 +148,7 @@
     <form action="https://example.com/create-account" method="post">
         
         <div class="imgcontainer">
-            <img src="bluestock.jpg.png" alt="bluestock" class="avatar">
+            <img src="logo.png" alt="bluestock" class="avatar">
         </div>
         <div class="create-account-title"><b>Create an Account</b></div>
         <div class="container">
@@ -194,7 +194,7 @@
         <!-- Google Sign-In Button -->
         <div class="container">
             <button type="button" class="google-btn">
-                <img src="google.jpg.png" alt="Google">
+                <img src="google.png" alt="Google">
                 Continue with Google
             </button>
         </div>
@@ -210,10 +210,10 @@
             var passwordIcon = document.querySelector(".toggle-password img");
             if (passwordInput.type === "password") {
                 passwordInput.type = "text";
-                passwordIcon.src = "hide-password-icon.png";
+                passwordIcon.src = "hide.png";
             } else {
                 passwordInput.type = "password";
-                passwordIcon.src = "show-password-icon.png";
+                passwordIcon.src = "show.png";
             }
         }
     </script>
