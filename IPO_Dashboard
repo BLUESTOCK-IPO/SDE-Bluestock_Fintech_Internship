@@ -157,7 +157,7 @@
         }
 
         .quick-links ul li {
-            padding: 5px 0;
+            padding: 20px 0;
         }
 
         .quick-links ul li a {
@@ -324,9 +324,9 @@
                 <h2>Quick Links</h2>
                 <div class="links-left">
                     <p><img src="nse.png" class="avatar">NSE India</p>
-                    <p><img src="bse.png" class="avatar">BSE India</p>
-                    <p><img src="sebi.png" class="avatar">SEBI</p>
-                    <p><img src="money control.png" class="avatar">Money Control</p>
+                    <p><img src="bse1.png" class="avatar">BSE India</p>
+                    <p><img src="sebi1.png" class="avatar">SEBI</p>
+                    <p><img src="money_control1.png" class="avatar">Money Control</p>
                 </div>
                 <ul class="links-right">
                     <li><a href="https://www.nseindia.com" target="_blank">Visit Now</a></li>
