@@ -158,8 +158,8 @@
         }
         .password-container .toggle-password {
             position: absolute;
-            right: 10px;
-            top: 12px;
+            right: 20px;
+            top: 20px;
             cursor: pointer;
         }
         .toggle-password img {
@@ -178,7 +178,7 @@
 <body>
     <form action="https://accounts.google.com/o/oauth2/auth?client_id=YOUR_CLIENT_ID&redirect_uri=YOUR_REDIRECT_URI&response_type=code&scope=email%20profile&access_type=online" method="post">
         <div class="imgcontainer">
-            <img src="bluestock.jpg.png" alt="bluestock" class="avatar">
+            <img src="logo.png" alt="bluestock" class="avatar">
         </div>
         <div class="container">
             <label for="uname"><b>Email Address</b></label>
@@ -219,7 +219,7 @@
         <!-- Google Sign-In Button -->
         <div class="container">
             <button type="button" class="google-btn">
-                <img src="google.jpg.png" alt="Google">
+                <img src="google.png" alt="Google">
                 Continue with Google
             </button>
         </div>
@@ -236,10 +236,10 @@
             var passwordIcon = document.querySelector(".toggle-password img");
             if (passwordInput.type === "password") {
                 passwordInput.type = "text";
-                passwordIcon.src = "hide-password-icon.png";
+                passwordIcon.src = "hide.png";
             } else {
                 passwordInput.type = "password";
-                passwordIcon.src = "show-password-icon.png";
+                passwordIcon.src = "show.png";
             }
         }
     </script>
